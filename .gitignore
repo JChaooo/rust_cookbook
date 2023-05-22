@@ -1,0 +1,14 @@
+target/
+Cargo.lock
+.rustc_info.json
+.env
+*.swp
+*.log
+
+# idea
+.idea/
+
+# VS Code
+.vscode/
+.history/
+.code-workspace
