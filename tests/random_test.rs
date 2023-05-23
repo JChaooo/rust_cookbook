@@ -48,4 +48,12 @@ mod tests {
     fn get_ascll_str_is_work() {
         algorithm::random::get_ascll_str();
     }
+
+    /**
+     *@brief 测试 从一组用户自定义字符创建随机密码
+     */
+    #[test]
+    fn get_pwd_from_div_is_work() {
+        algorithm::random::get_pwd_from_div();
+    }
 }
